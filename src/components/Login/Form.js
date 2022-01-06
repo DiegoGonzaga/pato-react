@@ -12,6 +12,10 @@ class UserForm extends Component {
           <Label>E-mail address</Label>
           <Control type="email" placeholder="Enter e-mail"></Control>
         </Group>
+        <Group className="mb-3" controlId="formBasicPassword">
+          <Label>Password</Label>
+          <Control type="password" placeholder="Enter Password"></Control>
+        </Group>
         <div className="d-grid gap-2">
           <Button variant="primary" type="submit">
             Submit
